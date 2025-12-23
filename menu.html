@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zocalo Gastrocafe - Menu</title>
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+</head>
+
+<body class="body">
+    <div class="preload preload-container">
+        <div class="middle"></div>
+    </div>
+
+    <div id="wrapper">
+        <div id="page" class="">
+
+            <!-- header (unchanged) -->
+            <header id="header_main" class="header header-fixed header-2">
+                <div class="header-top">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <p>4th Floor, Aerial Legend, GEC Circle</p>
+                            </li>
+                            <li>
+                                <p>zocalo.bd@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right items-center">
+                        <div class="button-right">
+                            <a href="book-a-table.html" class="button-default mt-0">BOOK A TABLE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-inner">
+                    <div class="header-inner-wrap">
+                        <div class="header-left">
+                            <div id="site-logo">
+                                <a href="https://zocalo.brandboosteres.com/" rel="home" class="main-logo">
+                                    <img id="logo_header" alt="" src="assets/images/logo/zocalo.webp"
+                                        style="max-width: 150px;" data-retina="assets/images/logo/logo-1@2x.png">
+                                </a>
+                            </div><!-- /logo -->
+                        </div>
+                        <nav class="main-nav">
+                            <ul class="menu-primary-menu">
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="index.html">Home</a>
+                                </li>
+
+                                <li class="menu-item menu-item-has-children current-menu-item">
+                                    <a href="menu.html">Menu</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav><!-- /main-nav -->
+                        <div class="wg-information">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="17" height="15" viewBox="0 0 17 15">
+                                    <image id="_" data-name="" width="17" height="15"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAYAAABJ/8wUAAAEFklEQVRYhbWXW2+UVRSGn6nTOqXnQk/WUFEpghIrFYmNh6gx3viv/DHeGK+81HiIEEXRKIkoRqFNtXUsWhjAocxYs+qzze7XmXYa05Xs5Jt9WOtdh3ftPaUL77zFHtIFlB3dQC8w4KgAJY9vAnWg5vgLuA80HH/vZqa8FwqgDxgGhoB+vwf3AHILWAduAzf9rv0fIEeAJ4CTwGPAw8CE4LpbnG8YhTvAb8Ay8BNwBfgeWNsPkPB8HJgEHgGecpwAjgqgEwlAS8APwOPAMeA6sApUjVRbIBHueeA54LSGA9BhYKRDAEm6jeIoMAssCOwycBH4Ik9XAOkx1xHySMHLwDngVGa8oRd/mvcNPa6bBkxXRQA91tOIQEaMSpyfAcZcv2IK62UnIvevAS8ZiQnnsQgXgW/M8wpwV1bUshAPGdFg1SFgyvp6GnjUoh7x96RznwAfRC2VZUAAeQF41d9kkQgQF4D3ge+MQDkrytvu7c+KuOH3qSxiM57rd4xJ6aihW2XDGd48VACBNIwofA58JQ3H9LY7YwkZi+4btVVTN5ClZzTTPajNsF0p27B6WoBAw98CV/UwmHPcIq64J+8jaDyK8kfpG2enbQGjBf2D2u4KIPc8HAVYlCULKrx8EXjFNA7ofakAZNMo1QTxIfClOpasi1w2tH2vnB06bxF2mbsN56oWV7Dp9X30kZPqWVbHeed7Mhtfu14rW/URxreBj9y44ajJgCdNSacgcO9xz34mOy6qP9lY0fbNlJqq7TdtSqmKSn/TBjeWGanL/zVpjLQ9IvVT/Yx5Ngr3PRmY+lZydusyzDtrTNQ1kiSKa84xlNVCKPzY/Fedj2vhWVM4a+0MeXbJFrCYAdgm7S69B/TmjA1u3PlQcMPmFn3l0wKQ9ex2Pqz34+o4Yyp+B5pFg11tgATnzwLPS9Ukd6XjJe+MFZU2/b7s2lX3JjmqrrPt7qxWQEo2mgVDPZyt1a3ya1kkcqm6tlxI8bC6FtRdKh5sBWTExjXvRdXbJmr7kV51zat7R1SKQCoemPMK72uxPu3bYpydMu7adMacJH3qnNPGtvVisU5It3M2saIckhEpBTcsPizu03o9696iTKp7RfovtgIS3+HJM4av6BGyYEqv1t1zzbVj3uBz7tlRB+4/4Z5L1lKzCCQ2TalwchdGlWTBG743Vp2ftAFOtAGBOtNbZEqbd4pAoiUP2IT2elRXNDpTeKF1IuXsSdDXCkjyop037aRTALlEw3zQVG9JHv646jdadb0DkKZdutEKSLpt1w4YTDO7ZNMzc1tqIiK/eH80zGFa39ypb1+S0h16//BZcD2/Boq378/Au24MIOkv5a7/WzuQiHz6SxpAfnX8p7fIjghVII2wbT1qDwBIPMTSf6N/BfgHi1YQplUrVPoAAAAASUVORK5CYII=" />
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <p class="tf-color">Phone Call Us</p>
+                                <p class="number-phone"><a href="tel:+88 01817161679">+88 01817161679</a></p>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="canvas">
+                                <div class="canvas-button"><span></span></div>
+                                <div class="wg-welcom">
+                                    <div class="inner">
+                                        <div class="button-close"><i class="icon-close"></i></div>
+                                        <img src="assets/images/logo/zocalo.webp" style="max-width: 180px;" alt="">
+                                        <div class="text">Drawing on their respective experiences in the hospitality
+                                            industry, the duo imagined a place celebrating.</div>
+                                        <div class="number-phone">+88 01817161679</div>
+                                        <div class="text line-under">Aerial Legend(4th Floor), 1080 - CDA Avenue, East
+                                            Nasirabad, GEC Circle, Chittagong, Bangladesh<br> zocalo.bd@gmail.com</div>
+                                        <div class="text line-under">Opening Hour: <br> Sat - Fri : 9.00am - 10pm,
+                                            Holidays : Close</div>
+                                        <div class="widget-social justify-center">
+                                            <ul class="">
+                                                <li><a href="https://zocalo.brandboosteres.com/" class="icon-fb"></a></li>
+                                                <li><a href="https://zocalo.brandboosteres.com/" class="icon-trip"></a></li>
+                                                <li><a href="https://zocalo.brandboosteres.com/" class="icon-youtube-play"></a></li>
+                                                <li><a href="https://zocalo.brandboosteres.com/" class="icon-instagram2"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mobile-button ">
+                                <span></span>
+                            </div>
+                        </div><!-- /header-right -->
+                    </div>
+                </div>
+                <div class="mobile-nav-wrap">
+                    <div class="overlay-mobile-nav"></div>
+                    <div class="inner-mobile-nav">
+                        <div class="relative">
+                            <a href="https://zocalo.brandboosteres.com/" rel="home" class="main-logo">
+                                <img id="mobile-logo_header" alt="" src="assets/images/logo/logo.png"
+                                    data-retina="assets/images/logo/logo@2x.png">
+                            </a>
+                            <div class="mobile-nav-close">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88"
+                                    enable-background="new 0 0 122.878 122.88" xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <nav id="mobile-main-nav" class="mobile-main-nav">
+                            <ul id="menu-mobile-menu" class="menu">
+                                <li class="menu-item menu-item-has-children-mobile">
+                                    <a class="item-menu-mobile" href="https://zocalo.brandboosteres.com/">Home</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children-mobile current-menu-item">
+                                    <a class="item-menu-mobile" href="menu.html">Menu</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children-mobile">
+                                    <a class="item-menu-mobile" href="https://zocalo.brandboosteres.com/">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <!-- banner-page -->
+            <div class="banner-page inner-page menu-page">
+                <div class="content">
+                    <div class="banner-text">Zocalo Gastrocafe Menu</div>
+                    <p>Explore our menu with a wide range of Asian to European dishes</p>
+                </div>
+            </div>
+
+            <!-- TUMMY WARMERS & FUNKY BEGINNINGS -->
+            <div class="page-menu3-wrap">
+                <div class="themesflat-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="heading-section text-center">
+                                <div class="sub wow fadeInUp">Best Menus</div>
+                                <div class="main wow fadeInUp">SPECIALITIES</div>
+                                <div class="divider wow fadeInUp"><div></div></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap left image-before">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">TUMMY WARMERS</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Zocalo Signature Soup</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳280</div>
+                                    </div>
+                                    <p>Chef's special creamy soup</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Roasted Tomato Soup</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳220</div>
+                                    </div>
+                                    <p>Classic roasted tomato soup</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Corn Soup</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳250</div>
+                                    </div>
+                                    <p>Classic Chinese-style soup</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Tom Yum Soup</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳320</div>
+                                    </div>
+                                    <p>Spicy Thai soup with herbs</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">French Onion Soup</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳280</div>
+                                    </div>
+                                    <p>Caramelized onion soup with cheese</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap right">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">FUNKY BEGINNINGS</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Zocalo Wings</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳420</div>
+                                    </div>
+                                    <p>Crispy wings with signature sauce</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Nachos Supreme</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳380</div>
+                                    </div>
+                                    <p>Loaded nachos with cheese & salsa</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Satay</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳350</div>
+                                    </div>
+                                    <p>Grilled skewers with peanut sauce</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Fish Fingers</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳380</div>
+                                    </div>
+                                    <p>Crispy battered fish with tartar</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Spring Rolls</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳280</div>
+                                    </div>
+                                    <p>Crispy vegetable spring rolls</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NIBBLE & MUNCH -->
+            <div class="page-menu3-wrap style-1">
+                <div class="themesflat-container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-wrap left image-before">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">NIBBLE & MUNCH - SALADS</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Caesar Salad</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳350</div>
+                                    </div>
+                                    <p>Romaine, parmesan, croutons</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Greek Salad</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳320</div>
+                                    </div>
+                                    <p>Feta, olives, fresh vegetables</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Thai Beef Salad</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳420</div>
+                                    </div>
+                                    <p>Grilled beef with Thai dressing</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Garden Fresh Salad</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳280</div>
+                                    </div>
+                                    <p>Mixed greens with vinaigrette</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap right">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">NIBBLE & MUNCH - SANDWICHES</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Club Sandwich</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳380</div>
+                                    </div>
+                                    <p>Triple decker with chicken & bacon</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Grilled Chicken Sandwich</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳350</div>
+                                    </div>
+                                    <p>Grilled chicken breast with veggies</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">BLT Sandwich</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳320</div>
+                                    </div>
+                                    <p>Bacon, lettuce, tomato classic</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Veggie Delight</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳280</div>
+                                    </div>
+                                    <p>Fresh vegetables with hummus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WRAPS & PIZZA -->
+            <div class="page-menu3-wrap">
+                <div class="themesflat-container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-wrap left image-before">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">WRAPS & QUESADILLAS</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Shawarma Wrap</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳350</div>
+                                    </div>
+                                    <p>Spiced chicken with garlic sauce</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Beef Quesadilla</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳420</div>
+                                    </div>
+                                    <p>Cheesy beef quesadilla with salsa</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Falafel Wrap</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳300</div>
+                                    </div>
+                                    <p>Crispy falafel with tahini</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Quesadilla</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳380</div>
+                                    </div>
+                                    <p>Grilled chicken with melted cheese</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap right">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">PIZZA PRONTO (8")</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Margherita</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳450</div>
+                                    </div>
+                                    <p>Fresh tomato, mozzarella, basil</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">BBQ Chicken</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳550</div>
+                                    </div>
+                                    <p>BBQ sauce, chicken, onions</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Pepperoni</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳520</div>
+                                    </div>
+                                    <p>Classic pepperoni with cheese</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Meat Lovers</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳620</div>
+                                    </div>
+                                    <p>Beef, chicken, pepperoni</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PASTA & BURGERS -->
+            <div class="page-menu3-wrap style-1">
+                <div class="themesflat-container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-wrap left image-before">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">STRINGS & TUBES</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Spaghetti Bolognese</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳420</div>
+                                    </div>
+                                    <p>Classic meat sauce pasta</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Alfredo Pasta</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳450</div>
+                                    </div>
+                                    <p>Creamy parmesan sauce</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Penne Arrabiata</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳380</div>
+                                    </div>
+                                    <p>Spicy tomato sauce pasta</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Carbonara</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳480</div>
+                                    </div>
+                                    <p>Creamy egg and bacon pasta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap right">
+                                <div class="heading-section text-center">
+                                    <div class="main wow fadeInUp">GOURMET BURGERS</div>
+                                    <div class="divider wow fadeInUp"><div></div></div>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Classic Beef Burger</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">Single ৳380 / Double ৳520</div>
+                                    </div>
+                                    <p>Juicy beef patty with fresh veggies</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Zocalo Special Burger</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">Single ৳450 / Double ৳620</div>
+                                    </div>
+                                    <p>Signature burger with special sauce</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Burger</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">Single ৳350 / Double ৳480</div>
+                                    </div>
+                                    <p>Grilled chicken with mayo</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Mushroom Swiss Burger</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">Single ৳420 / Double ৳580</div>
+                                    </div>
+                                    <p>Beef patty with sautéed mushrooms</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHICKEN SECTION -->
+            <div class="page-menu3-wrap">
+                <div class="themesflat-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="heading-section text-center">
+                                <div class="main wow fadeInUp">CHICKEN</div>
+                                <div class="divider wow fadeInUp"><div></div></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap left image-before">
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Grilled Chicken</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳480</div>
+                                    </div>
+                                    <p>Herb marinated grilled chicken</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Steak</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳520</div>
+                                    </div>
+                                    <p>Pan-seared chicken with sauce</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Butter Chicken</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳450</div>
+                                    </div>
+                                    <p>Creamy tomato curry</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="menu-wrap right">
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Teriyaki</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳480</div>
+                                    </div>
+                                    <p>Japanese style glazed chicken</p>
+                                </div>
+                                <div class="wg-menu-item">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Lemon Herb Chicken</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳450</div>
+                                    </div>
+                                    <p>Citrus herb grilled chicken</p>
+                                </div>
+                                <div class="wg-menu-item mb-0">
+                                    <div class="flex items-center">
+                                        <div class="name"><a href="#">Chicken Cordon Bleu</a></div>
+                                        <div class="line"></div>
+                                        <div class="price">৳550</div>
+                                    </div>
+                                    <p>Stuffed with cheese and ham</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking form and footer remain unchanged -->
+            <!-- ... your existing booking form and footer code ... -->
+
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
